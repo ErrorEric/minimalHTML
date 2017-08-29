@@ -1,0 +1,29 @@
+To add an ID, add a comment to your HTML code before the text or path name that is going to be able to be changed by the program.
+
+The comment should look like this :
+
+
+<!-- MHI_text_>_<_ -->
+
+
+<!-- : open a comment
+
+MHI_ : keyword (Minimalistic Html Id)
+
+text_ : name of your ID + _
+
+>_ : string that opens the text to register + _
+
+<_ : string that closes the text to register + _
+
+--> : close a comment
+
+example code snippet :
+
+<p>Lorem ipsum</p>
+<!-- MHI_MainText_p>_</p_ -->  <p>This is the text that can be changed by the program</p> 
+<p> Lorem ipsum
+
+_______
+
+This code would generate an ID named MainText that changed the text in the middle.
